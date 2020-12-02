@@ -76,6 +76,8 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
+  font-size: xx-large;
+  text-align: center;
 }
 
 .header img {

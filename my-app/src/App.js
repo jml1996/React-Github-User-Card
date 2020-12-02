@@ -45,9 +45,10 @@ class App extends React.Component {
     return(
     <div className="container">
       <div className="header">
-        <img src="./assets/lambdalogo.png" alt="Lambda Logo"/>
+        {/* <img src="./assets/lambdalogo.png" alt="Lambda Logo"/>
           <p>❤️'s</p>
-        <img src="./assets/githublogo.png" alt="GitHub Logo" />
+        <img src="./assets/githublogo.png" alt="GitHub Logo" /> */}
+        <h1>GitHub Profiles</h1>
       </div>
       {
         this.state.users.map((user, index) => (   
